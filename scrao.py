@@ -11,9 +11,10 @@ Welcome to lyrics scrapper
 
 all the lyrics are from 
 "search.azlyrics.com"
-hope u enjoy this program :)
 Usage: <song> <artist>
 	wh/<>
+Exit : quit
+
 Author:VeeX
 
 
