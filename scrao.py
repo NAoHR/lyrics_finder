@@ -3,9 +3,6 @@ import requests
 import os
 import sys
 import time
-#https://docs.google.com/forms/u/0/d/e/1FAIpQLSd_-UzlDldhwOWX2vurgklZuRU4fwNTnTtQISY6nBeYgUJHIQ/formResponse
-#versi 1 dari azlyrics
-#yang kedua rencananya  biar banyak lagu indo
 os.system("clear")
 sys.stdout.write(
 """
