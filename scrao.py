@@ -3,7 +3,7 @@ import requests
 import os
 import sys
 import time
-#author:VeeX/NAoHR/Najmi
+#AUTHOR : VeeX/NAoHR/Najmi
 os.system("clear")
 sys.stdout.write(
 """
@@ -52,16 +52,11 @@ try:
 			except ValueError:
 				print("value must be an integer")
 			seperate = kumpulan[song_u_want-1]
-			print(seperate)
 			print("Searching for : ",seperate.text)
 			seperate1 = [item for item in seperate]
 			close = str(seperate1[1])
-			print(close)
-			print(str(seperate))
 			go_to = close[close.find('//')+2:close.find('>')-1]
-			print(go_to)
 			final = "https://"+go_to
-			# os.system("clear")
 			print("searching for lyrics....")
 			print("lyrics : ")
 			page = requests.get(final)
