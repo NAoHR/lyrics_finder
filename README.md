@@ -7,5 +7,14 @@ pip install bs4
 ```
 ## Usage
 ```bash
-git clone
+Linux:
+git clone https://github.com/NAoHR/lyrics_finder.git
+cd lyrics_finder
+python3 scrao.py
+
+if you use windows
+"you download and then you can extract the file and then go the file directory"
+cd lyrics_finder
+python scrao.py
+
 ```
