@@ -3,6 +3,7 @@ import requests
 import os
 import sys
 import time
+#author:VeeX/NAoHR/Najmi
 os.system("clear")
 sys.stdout.write(
 """
