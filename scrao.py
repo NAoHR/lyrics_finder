@@ -43,7 +43,7 @@ try:
 			j = 0
 			for item in link:
 				j +=1
-				if j <= 6:
+				if j <= 6:#you can adjust the amount of result by changing this number
 					print(item.text)
 					kumpulan.append(item)
 				else:
