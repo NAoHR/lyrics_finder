@@ -31,3 +31,16 @@ cd lyrics_finder
 ```cmd
 python scrao.py
 ```
+
+## commands
+
+
+- `quit` - to quit / exit
+- `clear` - to clear the screen
+
+## examples
+
+to search, simply type the song name, if needed, include the artist name
+```bash
+$ song : <name> <artist>
+```
