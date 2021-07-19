@@ -11,9 +11,11 @@ Welcome to lyrics scrapper
 
 all the lyrics are from 
 "search.azlyrics.com"
+
 Usage: <song> <artist>
-	wh/<>
+Help : help
 Exit : quit
+Clear : clear
 
 Author:VeeX
 
@@ -29,6 +31,16 @@ try:
 			stop = True
 		elif inputan == "clear":
 			os.system("clear")
+		elif inputan == "help":
+			sys.stdout.write(
+"""
+Usage: <song> <artist>
+Help : help
+Exit : quit
+Clear : clear
+
+
+""")
 		else:
 			plus = inputan.replace(' ','+')
 			print('searching for',inputan)
